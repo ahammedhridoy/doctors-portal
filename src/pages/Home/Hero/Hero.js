@@ -6,9 +6,9 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="" style={{ backgroundImage: `url(${appointment})` }}>
-      <div className="hero min-h-screen bg-slate-50 bg-opacity-80">
+      <div className="hero min-h-screen overflow-hidden	 bg-slate-50 bg-opacity-80">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="">
+          <div className="mt-32">
             <img
               src={chair}
               alt=""
@@ -16,7 +16,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="">
+          <div className="grid place-items-center lg:place-items-start">
             <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
             <p className="py-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting

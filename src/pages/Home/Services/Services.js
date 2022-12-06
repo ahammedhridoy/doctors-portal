@@ -46,24 +46,26 @@ const Services = () => {
       </div>
 
       {/* service bottom section */}
-      <div className="hero min-h-screen ">
+      <div className="hero min-h-screen overflow-hidden">
         <div className="hero-content flex flex-col lg:flex-row">
-          <div className="mr-5">
+          <div className="mr-5 mt-32">
             <img
               src={treatment}
-              className="max-w-sm rounded-lg shadow-2xl"
+              className="max-w-sm rounded-lg  lg:h-full shadow-2xl"
               alt="treatment"
             />
           </div>
 
-          <div className="grid place-items-center lg:place-items-start">
+          <div className="grid place-items-center lg:place-items-start ">
             <h1 className="text-4xl lg:text-left text-center font-bold">
               Exceptional Dental <br /> Care, on Your Terms
             </h1>
             <p className="py-6 text-center lg:text-left">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsumis that it has a more-or-less normal
+              It is a long established fact that a reader will be distracted by{" "}
+              <br />
+              the readable content of a page when looking at its layout. <br />{" "}
+              The point of using Lorem Ipsumis that it has a more-or-less normal{" "}
+              <br />
               distribution of letters,as opposed to using ‘Content here, cont
             </p>
             <button className="btn  text-white btn-primary">Learn More</button>
