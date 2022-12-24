@@ -37,6 +37,9 @@ const Navabr = () => {
                 <Link to="/dental-services">Dental Services</Link>
               </li>
               <li>
+                <Link to="/appointment">Appointment</Link>
+              </li>
+              <li>
                 <Link to="/reviews">Reviews</Link>
               </li>
               <li>
@@ -62,6 +65,9 @@ const Navabr = () => {
             </li>
             <li>
               <Link to="/dental-services">Dental Services</Link>
+            </li>
+            <li>
+              <Link to="/appointment">Appointment</Link>
             </li>
             <li>
               <Link to="/reviews">Reviews</Link>
